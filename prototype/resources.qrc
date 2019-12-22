@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>shaders/fragshader.glsl</file>
-        <file>shaders/vertshader.glsl</file>
-        <file>shaders/fragshader_deltanormmap.glsl</file>
-        <file>shaders/vertshader_deltanormmap.glsl</file>
-    </qresource>
-</RCC>
