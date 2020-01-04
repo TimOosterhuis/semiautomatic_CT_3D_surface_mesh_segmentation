@@ -1,15 +1,16 @@
-# Semi-automatic CT scan labeling
+# Semi-automatic CT 3D surface mesh segmentation
 
 
 ## Background
 
-This Semi-automatic CT scan labeling application was developed as part of my Master Thesis reasearch: "Fractured hip bone CT scan segmentation". 
-The goal of this thesis research was to speed up the process of CT scan labeling for complex fractures, as manual fracture segment labeling is time consuming.
+This Semi-automatic CT scan surface mesh segmentation application was developed as part of my Master Thesis reasearch: "Fractured hip bone CT scan segmentation". 
+The goal of this thesis research was to speed up the process of CT scan surface mesh segmentation for complex fractures, as manual fracture segment segmentation is time consuming.
 To this end we designed a semi-automatic surface region growing lebeling method with manual seed point placement. 
 The region growing algorithm uses mesh traversal with an added constraint on the maximum allowed angle between normals of adjacent vertices, so that the seeded regions only propagate through smooth surfaces. 
-The mesh traversal based region growing algorithm has been embedded into this interactive bone CT scan labeling application.
+The mesh traversal based region growing algorithm has been embedded into this interactive bone CT scan 
+ling application.
 
-This application has also been used for research into the possibility of fast semi-automatic CT scan labeling of individual vertebrae. 
+This application has also been used for research into the possibility of fast semi-automatic CT scan surface mesh segmentation of individual vertebrae in neck surgery planning. 
 
 ## Use instructions
 
